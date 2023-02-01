@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: "testns2"
-  labels:
-    name: "testns2"

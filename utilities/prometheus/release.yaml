@@ -21,7 +21,7 @@
       values:
         grafana:
           service:
-            type: ClusterIP
+            type: LoadBalancer
         alertmanager:
           enabled: false
         prometheus:

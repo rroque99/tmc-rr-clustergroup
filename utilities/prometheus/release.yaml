@@ -19,6 +19,8 @@
         crds: CreateReplace
       # https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/values.yaml
       values:
+        admin:
+          password: "Passw0rd"
         alertmanager:
           enabled: false
         prometheus:
